@@ -1,0 +1,42 @@
+nav {
+    background: aquamarine;
+    color: white;
+    border-bottom: 1px solid navy;
+    box-shadow: 5px 5px 5px #666;
+}
+
+nav > ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    margin-left: auto;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+
+#nav > ul li {
+    padding: 15px;
+    text-align: center;
+    transition: background 1s ease;
+
+}
+
+#nav > ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background: peru;
+}
+
+.sub-menu {
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    visibility: hidden;
+    transition: opacity 1s ease;
+}
+
+.has-submenu:hover > .sub-menu{
+    visibility: visible;
+}
