@@ -1,5 +1,6 @@
 nav {
-    background: aquamarine;
+    background: rgb(221, 221, 221);
+    transition: background 1s ease-in-out;
     color: white;
     border-bottom: 1px solid navy;
     box-shadow: 5px 5px 5px #666;
