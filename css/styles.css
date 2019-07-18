@@ -1,4 +1,28 @@
+/* Reseteo de estilos */
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+:root{
+   --nav-bg:rgb(239, 239, 239);
+   --nav-drop-menu:rgb(221, 221, 221);
+   --nav-text-color:rgb(20, 20, 20);
+}
 body {
    margin: 0;
    padding: 0;
+   padding-top: 60px;
+}
+
+/* Estilos para navbar */
+.navbar-light .navbar-nav .nav-link{
+   color: var(--nav-text-color);
+}
+.nav-bg{
+   background-color: var(--nav-bg);
+}
+.nav-logo{
+   height: 40px;
+}
+.drop-menu-bg{
+   background-color: var(--nav-drop-menu);
 }
