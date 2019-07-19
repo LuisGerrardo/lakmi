@@ -1,11 +1,4 @@
 /* Importaci+on de fuente */
-@font-face {
-   font-family: 'bahnschrift';
-      src: url('fonts/bahnschrift.woff') format('woff'),
-           url('fonts/bahnschrift.ttf') format('truetype');
-     font-weight: normal;
-     font-style: normal;
-}
 
 /* Reseteo de estilos */
 *, *::before, *::after {
