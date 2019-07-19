@@ -4,6 +4,8 @@ nav {
     color: white;
     border-bottom: 1px solid navy;
     box-shadow: 5px 5px 5px #666;
+    z-index: 9999;
+    position: relative;
 }
 
 nav > ul {
@@ -40,4 +42,44 @@ nav > ul {
 
 .has-submenu:hover > .sub-menu{
     visibility: visible;
+}
+
+
+/*   NAV SECUNDARIO */
+
+
+.nav-wrapper{
+    width:1000%;
+    border:1px solid peru;
+    margin-left: -224px;
+    display:flex;
+    justify-content: space-between;
+    z-index: 0;
+    position: absolute;
+
+}
+
+.nav-wrapper img{
+    width:10%;
+}
+
+.nav-wrapper img:hover{
+    transform:scale(1.5)
+}
+
+.nav-wrapper ul{
+    display:flex;
+    list-style:none;
+    border:1px solid red;
+    font-size: 20px;
+    padding:0;
+}
+
+.nav-wrapper ul li{
+    padding: 15px;
+}
+
+#servicios:hover > .nav-wrapper  {
+    background: greenyellow;
+    display: flex;
 }
