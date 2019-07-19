@@ -1,17 +1,28 @@
+/* Importaci+on de fuente */
+@font-face {
+   font-family: 'bahnschrift';
+      src: url('fonts/bahnschrift.woff') format('woff'),
+           url('fonts/bahnschrift.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
 /* Reseteo de estilos */
 *, *::before, *::after {
    box-sizing: border-box;
 }
 :root{
-   --nav-bg:rgb(239, 239, 239);
-   --nav-drop-menu:rgb(221, 221, 221);
+   --nav-bg:rgb(202, 202, 202);
    --nav-text-color:rgb(20, 20, 20);
 }
 body {
    margin: 0;
    padding: 0;
    padding-top: 60px;
+   font-family: 'bahnschrift';
+   font-size: 18px;
 }
+
 
 /* Estilos para navbar */
 .navbar-light .navbar-nav .nav-link{
