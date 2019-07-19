@@ -12,10 +12,10 @@ nServicios.onmouseover = () =>{
 nServicios.onmouseleave = () =>{
    bSencundaria.style.top = 0;
 };
-bSecundaria.onmouseover = () =>{
+bSencundaria.onmouseover = () =>{
    bSencundaria.style.top = "50px";
 };
-bSecundaria.onmouseleave = () =>{
+bSencundaria.onmouseleave = () =>{
    bSencundaria.style.top = 0;
 };
 
