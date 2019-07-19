@@ -1,0 +1,10 @@
+.barra-sencundaria {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: top 1s ease;
+   width: 100%;
+}
+/* .barra-secundaria:hover {
+   top: 50px;
+} */
