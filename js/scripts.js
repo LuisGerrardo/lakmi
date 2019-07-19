@@ -1,3 +1,5 @@
+/*    NOSOTROS    */
+
 let bNosotros = document.getElementById("nosotros");
 let bSecundaria = document.getElementById("barra-sencundaria");
 
@@ -14,3 +16,5 @@ bSecundaria.onmouseover = () =>{
 bSecundaria.onmouseleave = () =>{
    bSecundaria.style.top = 0;
 };
+
+
