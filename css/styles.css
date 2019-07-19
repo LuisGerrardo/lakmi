@@ -5,7 +5,7 @@
    box-sizing: border-box;
 }
 :root{
-   --nav-bg:rgb(202, 202, 202);
+   --nav-bg:rgb(221, 221, 221);
    --nav-text-color:rgb(20, 20, 20);
 }
 body {
