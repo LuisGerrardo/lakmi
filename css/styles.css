@@ -1,32 +1,27 @@
-/* Importaci+on de fuente */
-
 /* Reseteo de estilos */
 *, *::before, *::after {
    box-sizing: border-box;
 }
 :root{
-   --nav-bg:rgb(202, 202, 202);
+   --nav-bg:rgb(221, 221, 221);
    --nav-text-color:rgb(20, 20, 20);
 }
 body {
    margin: 0;
    padding: 0;
    padding-top: 60px;
-   font-family: 'bahnschrift';
-   font-size: 18px;
+   font-family: 'Bahnschrift Regular';
+   font-weight: normal;
 }
-
 
 /* Estilos para navbar */
-.navbar-light .navbar-nav .nav-link{
-   color: var(--nav-text-color);
-}
 .nav-bg{
    background-color: var(--nav-bg);
+   font-size: 18px;
 }
 .nav-logo{
    height: 40px;
 }
-.drop-menu-bg{
-   background-color: var(--nav-drop-menu);
+.navbar-light .navbar-nav .nav-link{
+   color: var(--nav-text-color);
 }
