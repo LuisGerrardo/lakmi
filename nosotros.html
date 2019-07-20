@@ -12,16 +12,16 @@
    </head>
    <body>
       
-      <nav class="navbar navbar-expand-md navbar-light nav-bg fixed-top barra-principal">
-            <div class="container justify-content-between">
+      <nav class="navbar navbar-expand-lg navbar-light nav-bg fixed-top barra-principal">
+   
                <a class="navbar-brand py-0" href="index.html">
                   <img src="images/logo-lakmi.png" alt="Lakmi Systems" class="nav-logo">
                </a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                </button>
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav flex-md justify-content-around w-100">
+               <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                  <ul class="navbar-nav flex-md justify-content-around">
                      <li class="nav-item">
                         <a id="nosotros" class="nav-link" href="nosotros.html">Sobre Nosotros 1</a>
                      </li>
@@ -38,9 +38,17 @@
                         <a class="nav-link" href="integrate.html">Integrate</a>
                      </li>
                   </ul>
+
+                  <form class="form-inline">
+                     <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="input-group-prepend">
+                          <button class="input-group-text" id="basic-addon1">@</button>
+                        </div>
+                     </div>
+                   </form>
                </div>
    
-            </div>
       </nav>
 
       <nav class="navbar navbar-expand-md navbar-light nav-bg barra-sencundaria container" id="barra-sencundaria">
