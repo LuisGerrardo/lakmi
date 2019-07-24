@@ -5,15 +5,19 @@
    padding: 0;
 }
 :root{
-   --nav-bg:rgb(221, 221, 221);
-   --nav-text-color:rgb(20, 20, 20);
-   --nav-search-color: rgb(180,180,180);
+   --body-bg:#efefef;
+   --nav-bg:#ddd; /* rgb(221, 221, 221);*/
+   --nav-text-color:#141414; /*rgb(20, 20, 20);*/
+   --nav-search-color: #b4b4b4; /*rgb(180,180,180);*/
    --nav-search-focus: rgba(120,120,120,0.25);
+   --title-color: #7f7f7f; /*RGB 127*/
+   --text-color: #646464; /*RGB 100*/
 }
 body {
    padding-top: 60px;
    font-family: 'Bahnschrift Regular';
    font-weight: normal;
+   background-color: var(--body-bg);
 }
 
 /* Estilos para navbar */
@@ -38,6 +42,7 @@ body {
 .form-control:focus{
    /* border-color: var(--nav-search-color); */
    box-shadow: none;
+   color: var(--text-color);
 }
 .input-group:hover{
    box-shadow: 0 0 0 .15rem var(--nav-search-focus);
@@ -58,6 +63,13 @@ body {
    color: var(--nav-text-color);
 }
 
+.title{
+   text-align: center;
+   color: var(--title-color);
+}
+.title-section{
+   font-size: 45px;
+}
 
 /* Responsive Web Design */
 @media screen and (max-width:768px){
