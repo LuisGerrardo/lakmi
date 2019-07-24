@@ -1,4 +1,4 @@
-nav {
+/* nav {
     background: rgb(221, 221, 221);
     transition: background 1s ease-in-out;
     color: white;
@@ -45,7 +45,7 @@ nav > ul {
 }
 
 
-/*   NAV SECUNDARIO */
+/*   NAV SECUNDARIO 
 
 
 .nav-wrapper{
@@ -83,3 +83,27 @@ nav > ul {
     background: greenyellow;
     display: flex;
 }
+
+#img {
+
+    padding-top: 50px;
+    background-color: var(--nav-bg);
+}
+
+*/
+
+
+.barra-sencundaria {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: top 1s ease;
+   width: 100%;
+}
+ .barra-secundaria:hover {
+   top: 50px;
+} 
+
+.container {
+    max-width: 1240px;
+ }
