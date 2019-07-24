@@ -1,19 +1,23 @@
 /* Reseteo de estilos */
 *, *::before, *::after {
    box-sizing: border-box;
-}
-:root{
-   --nav-bg:rgb(221, 221, 221);
-   --nav-text-color:rgb(20, 20, 20);
-   --nav-search-color: rgb(180,180,180);
-   --nav-search-focus: rgba(120,120,120,0.25);
-}
-body {
    margin: 0;
    padding: 0;
+}
+:root{
+   --body-bg:#efefef;
+   --nav-bg:#ddd; /* rgb(221, 221, 221);*/
+   --nav-text-color:#141414; /*rgb(20, 20, 20);*/
+   --nav-search-color: #b4b4b4; /*rgb(180,180,180);*/
+   --nav-search-focus: rgba(120,120,120,0.25);
+   --title-color: #7f7f7f; /*RGB 127*/
+   --text-color: #646464; /*RGB 100*/
+}
+body {
    padding-top: 60px;
    font-family: 'Bahnschrift Regular';
    font-weight: normal;
+   background-color: var(--body-bg);
 }
 
 /* Estilos para navbar */
@@ -26,39 +30,46 @@ body {
    height: 40px;
    width: 100px;
 }
-.form-control:focus{
-   border-color: var(--nav-search-color);
-   box-shadow: -0.1rem 0 1px .1rem var(--nav-search-focus)
-}
-.form-control:focus + .input-group-btn {
-   border-color: var(--nav-search-color);
-   box-shadow: 0.1rem 0 1px .1rem var(--nav-search-focus);
-}
-.navbar .form-control, .input-group-btn{
-   background-color: var(--nav-bg);
-   height: 25px;
-}
-.input-group-btn{
-   width: 35px;
+.input-group{
+   border-radius: 15px;
+   overflow: hidden;
    border: 1px solid var(--nav-search-color);
-   border-left: none;
-   border-radius: 20px;
-   border-bottom-left-radius: 0;
-   border-top-left-radius: 0;
+   transition: box-shadow .15s ease-in-out;
+}
+.form-control{
+   padding-right: 0.2rem;
+}
+.form-control:focus{
+   /* border-color: var(--nav-search-color); */
+   box-shadow: none;
+   color: var(--text-color);
+}
+.input-group:hover{
+   box-shadow: 0 0 0 .15rem var(--nav-search-focus);
+}
+.navbar .input-group-btn{
+   display: block;
+   width: 2rem;
+   padding: 0.1rem;
    font-size: 0.8rem;
-   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.navbar .form-control{
-   border-color: var(--nav-search-color);
-   border-right: none;
-   border-radius: 20px;
-   border-bottom-right-radius: 0;
-   border-top-right-radius: 0;
+.navbar .form-control, .navbar .input-group-btn{
+   border: none;
+   background-color: var(--nav-bg);
+   height: 1.6rem;
 }
+
 .navbar-light .navbar-nav .nav-link{
    color: var(--nav-text-color);
 }
 
+.title{
+   text-align: center;
+   color: var(--title-color);
+}
+.title-section{
+   font-size: 45px;
+}
 
 /* Responsive Web Design */
 @media screen and (max-width:768px){

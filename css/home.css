@@ -1,0 +1,31 @@
+:root{
+    --card-bg: #0b0b61;
+}
+
+.banner{
+    margin: 1.5rem auto 3rem;
+    width: 95vw;
+    height: 38vw;
+    background-image: url('../images/home/home01.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ .banner-layer{
+    height: 100%;
+    padding: 1rem;
+    background-color: rgba(210,210,210,0.3);
+ }
+
+ .card{
+    background-color: var(--card-bg);
+    font-size: 24px;
+ }
+ .card-logo{
+     width: 30%;
+     display: block;
+     margin: 0 auto 2em;
+ }
+ .card-content{
+    padding: 1em;
+    color: var(--text-color);
+ }
