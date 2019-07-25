@@ -1,31 +1,47 @@
 :root{
-    --card-bg: #0b0b61;
+   --card-bg: #254061;
 }
 
 .banner{
-    margin: 1.5rem auto 3rem;
-    width: 95vw;
-    height: 38vw;
-    background-image: url('../images/home/home01.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+   margin: 1.5rem auto 5rem;
+   width: 95vw;
+   height: 38vw;
+   background-image: url('../images/home/home01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
  }
  .banner-layer{
-    height: 100%;
-    padding: 1rem;
-    background-color: rgba(210,210,210,0.3);
+   height: 100%;
+   padding: 1rem;
+   background-color: rgba(210,210,210,0.5);
+ }
+ .banner-layer:hover{
+   background-color: rgba(210,210,210,0.8);
  }
 
+ .container, .col-12, .row{
+   padding: 0;
+ }
  .card{
-    background-color: var(--card-bg);
-    font-size: 24px;
+   background-color: var(--card-bg);
+   margin: 5rem;
  }
  .card-logo{
-     width: 30%;
-     display: block;
-     margin: 0 auto 2em;
+   width: 30%;
+   display: block;
+   margin: 0 auto 2em;
  }
  .card-content{
-    padding: 1em;
-    color: var(--text-color);
+   font-size: 24px;
+   padding: 1em 3.5em;
+   color: var(--text-color);
+ }
+ .card-image{
+   display: block;
+   width: 100%;
+   height: 25em;
+   padding: 0 0.9rem;
+ }
+ .card ol{
+   padding: 0 2em;
  }
