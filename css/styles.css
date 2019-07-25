@@ -44,7 +44,7 @@ body {
    color: var(--text-color);
 }
 .input-group:hover{
-   box-shadow: 0 0 0 .15rem var(--nav-search-focus);
+   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
 }
 .input-group-btn{
    width: 2rem;
