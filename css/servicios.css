@@ -104,6 +104,16 @@ nav > ul {
    top: 50px;
 } 
 
-.container {
-    max-width: 1240px;
- }
+.container-card {
+    margin-top: 49px;
+    text-align: -webkit-center;
+}
+
+.card-1 {
+    max-width: 1558px;
+    height: 100px;
+}
+
+.card-img-top{
+    height: 623px;
+}
