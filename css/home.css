@@ -5,14 +5,13 @@
 .banner{
    margin: 1.5rem auto 5rem;
    width: 95vw;
-   height: 38vw;
+   height: 25em;
    background-image: url('../images/home/home01.jpg');
    background-repeat: no-repeat;
    background-size: 100% 100%;
  }
  .banner-layer{
    height: 100%;
-   padding: 1rem;
    background-color: rgba(210,210,210,0.5);
  }
  .banner-layer:hover{
@@ -24,7 +23,7 @@
  }
  .card{
    background-color: var(--card-bg);
-   margin: 5rem;
+   margin-bottom: 5rem;
  }
  .card-logo{
    width: 30%;
@@ -45,3 +44,51 @@
  .card ol{
    padding: 0 2em;
  }
+
+ /* Responsive Web Design */
+ @media (max-width:1096px){
+   .banner-layer.card-content{
+      font-size: 20px;
+      padding: 1em;
+   }
+   .card-image{
+      height: 20em;
+   }
+}
+@media (max-width:768px){
+   .card-content{
+      font-size: 20px;
+      padding: 1em 2em;
+   }
+   .card-image{
+      height: 16em;
+   }
+   
+}
+@media (max-width:634px){
+   .banner-layer.card-content{
+      font-size: 16px;
+   }
+}
+@media (max-width:510px){
+   .card-image{
+      height: 12em;
+   }
+   .card-logo{
+      width: 40%;
+   }
+}
+@media (max-width:382px){
+   .banner-layer.card-content{
+      font-size: 14px;
+   }
+   .card-image{
+      height: 10em;
+   }
+   .card-logo{
+      width: 50%;
+   }
+   .card-content{
+      font-size: 17px;
+   }
+}
