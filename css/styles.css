@@ -40,20 +40,21 @@ body {
    padding-right: 0.2rem;
 }
 .form-control:focus{
-   /* border-color: var(--nav-search-color); */
    box-shadow: none;
    color: var(--text-color);
 }
 .input-group:hover{
    box-shadow: 0 0 0 .15rem var(--nav-search-focus);
 }
-.navbar .input-group-btn{
-   display: block;
+.input-group-btn{
    width: 2rem;
    padding: 0.1rem;
    font-size: 0.8rem;
 }
-.navbar .form-control, .navbar .input-group-btn{
+.input-group-btn:enabled{
+   outline: none;
+}
+.navbar .form-control, .input-group-btn{
    border: none;
    background-color: var(--nav-bg);
    height: 1.6rem;
