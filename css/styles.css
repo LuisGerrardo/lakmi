@@ -1,32 +1,85 @@
-/* Importaci+on de fuente */
-
 /* Reseteo de estilos */
 *, *::before, *::after {
    box-sizing: border-box;
-}
-:root{
-   --nav-bg:rgb(221, 221, 221);
-   --nav-text-color:rgb(20, 20, 20);
-}
-body {
    margin: 0;
    padding: 0;
-   padding-top: 60px;
-   font-family: 'bahnschrift';
-   font-size: 18px;
 }
-
+:root{
+   --body-bg:#efefef;
+   --nav-bg:#ddd; /* rgb(221, 221, 221);*/
+   --nav-text-color:#141414; /*rgb(20, 20, 20);*/
+   --nav-search-color: #b4b4b4; /*rgb(180,180,180);*/
+   --nav-search-focus: rgba(120,120,120,0.25);
+   --title-color: #7f7f7f; /*RGB 127*/
+   --text-color: #646464; /*RGB 100*/
+}
+body {
+   padding-top: 60px;
+   font-family: 'Bahnschrift Regular';
+   font-weight: normal;
+   background-color: var(--body-bg);
+}
 
 /* Estilos para navbar */
-.navbar-light .navbar-nav .nav-link{
-   color: var(--nav-text-color);
-}
 .nav-bg{
    background-color: var(--nav-bg);
+   font-weight: 500;
+   font-size: 18px;
 }
 .nav-logo{
    height: 40px;
+   width: 100px;
 }
-.drop-menu-bg{
-   background-color: var(--nav-drop-menu);
+.input-group{
+   border-radius: 15px;
+   overflow: hidden;
+   border: 1px solid var(--nav-search-color);
+   transition: box-shadow .15s ease-in-out;
+}
+.form-control{
+   padding-right: 0.2rem;
+}
+.form-control:focus{
+   box-shadow: none;
+   color: var(--text-color);
+}
+.input-group:hover{
+   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
+}
+.input-group-btn{
+   width: 2rem;
+   padding: 0.1rem;
+   font-size: 0.8rem;
+}
+.input-group-btn:enabled{
+   outline: none;
+}
+.navbar .form-control, .input-group-btn{
+   border: none;
+   background-color: var(--nav-bg);
+   height: 1.6rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+   color: var(--nav-text-color);
+}
+
+.title{
+   text-align: center;
+   color: var(--title-color);
+}
+.title-section{
+   font-size: 45px;
+   margin-bottom: 1.2em;
+}
+
+/* Responsive Web Design */
+@media screen and (max-width:768px){
+   .navbar .input-group{
+      width: 100%;
+   }
+   .title-section{
+      font-size: 34px;
+      margin-bottom: 1em;
+   }
 }

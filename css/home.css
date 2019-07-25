@@ -1,0 +1,97 @@
+:root{
+   --card-bg: #254061;
+   --title-color: #ddd;
+   --text-color: #bbb;
+}
+
+.banner{
+   margin: 1.5rem auto 5rem;
+   width: 95vw;
+   height: 25em;
+   background-image: url('../images/home/home01.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+ .banner-layer{
+   height: 100%;
+   background-color: rgba(0,0,0,0.5);
+   transition: background-color 0.2s ease-in-out;
+ }
+ .banner-layer:hover{
+   background-color: rgba(0,0,0,0.6);
+ }
+
+ .container, .col-12, .row{
+   padding: 0;
+ }
+ .card{
+   background-color: var(--card-bg);
+   margin-bottom: 5rem;
+ }
+ .card-logo{
+   width: 30%;
+   display: block;
+   margin: 0 auto 2em;
+ }
+ .card-content{
+   font-size: 24px;
+   padding: 1em 3.5em;
+   color: var(--text-color);
+ }
+ .card-image{
+   display: block;
+   width: 100%;
+   height: 25em;
+   padding: 0 0.9rem;
+ }
+ .card ol{
+   padding: 0 2em;
+ }
+
+ /* Responsive Web Design */
+ @media (max-width:1096px){
+   .banner-layer.card-content{
+      font-size: 20px;
+      padding: 1em;
+   }
+   .card-image{
+      height: 20em;
+   }
+}
+@media (max-width:768px){
+   .card-content{
+      font-size: 20px;
+      padding: 1em 2em;
+   }
+   .card-image{
+      height: 16em;
+   }
+   
+}
+@media (max-width:634px){
+   .banner-layer.card-content{
+      font-size: 16px;
+   }
+}
+@media (max-width:510px){
+   .card-image{
+      height: 12em;
+   }
+   .card-logo{
+      width: 40%;
+   }
+}
+@media (max-width:382px){
+   .banner-layer.card-content{
+      font-size: 14px;
+   }
+   .card-image{
+      height: 10em;
+   }
+   .card-logo{
+      width: 50%;
+   }
+   .card-content{
+      font-size: 17px;
+   }
+}
