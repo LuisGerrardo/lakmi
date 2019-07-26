@@ -5,7 +5,7 @@
 }
 
 .banner{
-   margin: 1.5rem auto 5rem;
+   margin: 1.5rem auto 4rem;
    width: 95vw;
    height: 25em;
    background-image: url('../images/home/home01.jpg');
@@ -17,18 +17,15 @@
    background-color: rgba(0,0,0,0.5);
    transition: background-color 0.2s ease-in-out;
  }
-
- .container, .col-12, .row{
-   padding: 0;
- }
- .card{
+ .card-container{
+   width: 85vw;
    background-color: var(--card-bg);
-   margin-bottom: 5rem;
+   margin: 0 auto 4em;
  }
  .card-logo{
    width: 30%;
    display: block;
-   margin: 0 auto 2em;
+   margin: 0 auto 2rem;
  }
  .card-content{
    font-size: 24px;
@@ -39,9 +36,8 @@
    display: block;
    width: 100%;
    height: 25em;
-   padding: 0 0.9rem;
  }
- .card ol{
+ .card-container ol{
    padding: 0 2em;
  }
 /* Elementos con pseudoclases */
@@ -50,42 +46,63 @@
  }
 
  /* Responsive Web Design */
-@media (max-width:1196px){
+@media (max-width:1192px){
    .card-image{
       height: 20em;
    }
    .banner-layer.card-content{
       font-size: 20px;
-      padding: 1em;
+      padding: 1em 2em;
    }
 }
-@media (max-width:768px){
-   .card-content{
-      font-size: 20px;
-      padding: 1em 2em;
+@media (max-width:828px){
+   .card-logo{
+      width: 40%;
    }
    .card-image{
       height: 16em;
    }
-   
+   .card-content{
+      font-size: 20px;
+      padding: 1em 2em;
+   }
+   .banner-layer.card-content{
+      font-size: 18px;
+   }
 }
 @media (max-width:634px){
-   .banner-layer.card-content{
-      font-size: 16px;
+   .banner{
+      width: 100vw;
+   }
+   .card-container{
+      width: 90vw;
+   }
+   .banner, .card-container{
+      margin-bottom: 3rem;
    }
 }
-@media (max-width:510px){
+@media (max-width:560px){
+   .card-container{
+      width: 100vw;
+   }
+   .card-content{
+      font-size: 18px;
+      padding: 1em;
+   }
    .card-image{
       height: 12em;
-   }
-   .card-logo{
-      width: 40%;
    }
    .banner-layer .title-section{
       margin-bottom: 0.4em;
    }
+   .banner-layer.card-content{
+      font-size: 16px;
+   }
 }
-@media (max-width:413px){
+@media (max-width:408px){
+   .banner{
+      height: auto;
+   }
    .card-image{
       height: 10em;
    }
@@ -93,9 +110,10 @@
       width: 50%;
    }
    .card-content{
-      font-size: 17px;
+      font-size: 16px;
    }
    .banner-layer.card-content{
       font-size: 14px;
+      padding: 1em;
    }
 }
