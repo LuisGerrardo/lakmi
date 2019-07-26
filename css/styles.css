@@ -20,7 +20,7 @@ body {
    background-color: var(--body-bg);
 }
 
-/* Estilos para navbar */
+/* Estilos de navbar */
 .nav-bg{
    background-color: var(--nav-bg);
    font-weight: 500;
@@ -39,30 +39,21 @@ body {
 .form-control{
    padding-right: 0.2rem;
 }
-.form-control:focus{
-   box-shadow: none;
-}
-.input-group:hover{
-   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
-}
 .input-group-btn{
    width: 2rem;
    padding: 0.1rem;
    font-size: 0.8rem;
 }
-.input-group-btn:enabled{
-   outline: none;
-}
-.navbar .form-control, .input-group-btn{
+.input-group-btn, .navbar .form-control{
    border: none;
    background-color: var(--nav-bg);
    height: 1.6rem;
 }
-
 .navbar-light .navbar-nav .nav-link{
    color: var(--nav-text-color);
 }
 
+/* Estilos para títulos */
 .title{
    text-align: center;
    color: var(--title-color);
@@ -72,13 +63,24 @@ body {
    margin-bottom: 1.2em;
 }
 
+/* Elementos con pseudoclases */
+.form-control:focus{
+   box-shadow: none;
+}
+.input-group:hover{
+   box-shadow: 0 0 .2rem .1rem var(--nav-search-focus);
+}
+.input-group-btn:enabled{
+   outline: none;
+}
+
 /* Responsive Web Design */
-@media screen and (max-width:768px){
-   .navbar .input-group{
-      width: 100%;
-   }
+@media (max-width:768px){
    .title-section{
       font-size: 34px;
       margin-bottom: 1em;
+   }
+   .navbar .input-group{
+      width: 100%;
    }
 }
