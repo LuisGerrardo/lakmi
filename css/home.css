@@ -15,6 +15,9 @@
  .banner-layer{
    height: 100%;
    background-color: rgba(0,0,0,0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
    transition: background-color 0.2s ease-in-out;
  }
  .card-container{
@@ -37,8 +40,12 @@
    width: 100%;
    height: 25em;
  }
- .card-container ol{
+ .card-list{
+   list-style: decimal;
    padding: 0 2em;
+ }
+ .card-list > li{
+    margin-bottom: 0.5em;
  }
 /* Elementos con pseudoclases */
  .banner-layer:hover{
@@ -50,12 +57,11 @@
    .card-image{
       height: 20em;
    }
-   .banner-layer.card-content{
-      font-size: 20px;
-      padding: 1em 2em;
-   }
 }
 @media (max-width:828px){
+   .banner{
+      height: 20em;
+   }
    .card-logo{
       width: 40%;
    }
@@ -66,9 +72,6 @@
       font-size: 20px;
       padding: 1em 2em;
    }
-   .banner-layer.card-content{
-      font-size: 18px;
-   }
 }
 @media (max-width:634px){
    .banner{
@@ -77,11 +80,11 @@
    .card-container{
       width: 90vw;
    }
-   .banner, .card-container{
-      margin-bottom: 3rem;
-   }
 }
 @media (max-width:560px){
+   .banner{
+      height: 15em;
+   }
    .card-container{
       width: 100vw;
    }
@@ -92,16 +95,10 @@
    .card-image{
       height: 12em;
    }
-   .banner-layer .title-section{
-      margin-bottom: 0.4em;
-   }
-   .banner-layer.card-content{
-      font-size: 16px;
-   }
 }
 @media (max-width:408px){
    .banner{
-      height: auto;
+      height: 12em;
    }
    .card-image{
       height: 10em;
@@ -111,9 +108,5 @@
    }
    .card-content{
       font-size: 16px;
-   }
-   .banner-layer.card-content{
-      font-size: 14px;
-      padding: 1em;
    }
 }

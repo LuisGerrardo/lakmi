@@ -54,9 +54,12 @@ body {
 }
 
 /* Estilos para títulos */
-.title{
+.title, .title-section{
    text-align: center;
    color: var(--title-color);
+}
+.title{
+   font-size: 15vw;
 }
 .title-section{
    font-size: 45px;
