@@ -16,3 +16,20 @@
 .banner{
    background-image: url(../images/nosotros/nosotros01.jpg);
 }
+.card-logo{
+   width: 30%;
+   display: block;
+   margin: 0 auto 2rem;
+ }
+
+ /* Responsive Web Design */
+ @media (max-width:828px){
+   .card-logo{
+      width: 40%;
+   }
+}
+@media (max-width:408px){
+   .card-logo{
+      width: 50%;
+   }
+}

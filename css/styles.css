@@ -57,7 +57,6 @@ body {
 }
 
 /* Contenedores */
-
 .banner{
    margin: 1.5rem auto 4rem;
    width: 95vw;
@@ -78,11 +77,6 @@ body {
    background-color: var(--card-bg);
    margin: 0 auto 4em;
  }
- .card-logo{
-   width: 30%;
-   display: block;
-   margin: 0 auto 2rem;
- }
  .card-content{
    font-size: 24px;
    padding: 1em 3.5em;
@@ -98,7 +92,7 @@ body {
    padding: 0 2em;
  }
  .list-decimal > li{
-    margin-bottom: 0.5em;
+   margin-bottom: 0.5em;
  }
 
 /* Estilos para títulos */
@@ -143,9 +137,6 @@ body {
 @media (max-width:828px){
    .banner{
       height: 20em;
-   }
-   .card-logo{
-      width: 40%;
    }
    .card-image{
       height: 16em;
@@ -202,9 +193,6 @@ body {
    }
    .card-image{
       height: 10em;
-   }
-   .card-logo{
-      width: 50%;
    }
    .card-content{
       font-size: 16px;
