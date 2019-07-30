@@ -105,6 +105,7 @@ body {
 .title{
    font-size: 13vw;
    margin-bottom: 0;
+   cursor: default;
 }
 .title-section{
    font-size: 50px;
