@@ -70,7 +70,7 @@ body {
    background-color: rgba(0,0,0,0.5);
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
    transition: background-color 0.2s ease-in-out;
  }
  .card-container{
@@ -110,6 +110,7 @@ body {
 }
 .title{
    font-size: 13vw;
+   margin-bottom: 0;
 }
 .title-section{
    font-size: 50px;
@@ -135,6 +136,9 @@ body {
    .card-image{
       height: 20em;
    }
+   .title{
+      padding-top: 0.08em;
+   }
 }
 @media (max-width:828px){
    .banner{
@@ -149,6 +153,9 @@ body {
    .card-content{
       font-size: 20px;
       padding: 1em 2em;
+   }
+   .title{
+      padding-top: 0.25em;
    }
 }
 @media (max-width:768px){
@@ -167,6 +174,9 @@ body {
    .card-container{
       width: 90vw;
    }
+   .title{
+      padding-top: 0.68em;
+   }
 }
 @media (max-width:560px){
    .banner{
@@ -181,6 +191,9 @@ body {
    }
    .card-image{
       height: 12em;
+   }
+   .title{
+      padding-top: 0.45em;
    }
 }
 @media (max-width:408px){
