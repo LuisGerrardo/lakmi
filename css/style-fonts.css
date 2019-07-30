@@ -1,118 +1,37 @@
 @font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 1.woff') format('woff');
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bahnschrift-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bahnschrift-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/bahnschrift-bold.ttf') format('truetype');
 }
 
-
 @font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 10.woff') format('woff');
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bahnschrift-semicondensed.ttf') format('truetype');
 }
-
-
 @font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 11.woff') format('woff');
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/bahnschrift-semicondensed-light.ttf') format('truetype');
 }
-
-
 @font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 12.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 13.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 14.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 2.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 3.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 4.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 5.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 6.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 7.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 8.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT 9.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Bahnschrift Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Bahnschrift Regular'), url('../fonts/BAHNSCHRIFT.woff') format('woff');
+    font-family: 'Bahnschrift SemiCondensed';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/bahnschrift-semicondensed-bold.ttf') format('truetype');
 }

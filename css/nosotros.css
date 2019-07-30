@@ -9,6 +9,7 @@
 .container {
    max-width: 1240px;
 }
+<<<<<<< HEAD
 :root{
    --card-bg: #254061;
    --title-color: #ddd;
@@ -37,10 +38,18 @@
    margin: 0 auto 4em;
  }
  .card-logo{
+=======
+
+.banner{
+   background-image: url(../images/nosotros/nosotros01.jpg);
+}
+.card-logo{
+>>>>>>> d33733e919a903c25aa80ec334499b89c30bfd57
    width: 30%;
    display: block;
    margin: 0 auto 2rem;
  }
+<<<<<<< HEAD
  .card-content{
    font-size: 24px;
    padding: 1em 3.5em;
@@ -176,3 +185,17 @@
       font-size: 16px;
    }
 }
+=======
+
+ /* Responsive Web Design */
+ @media (max-width:828px){
+   .card-logo{
+      width: 40%;
+   }
+}
+@media (max-width:408px){
+   .card-logo{
+      width: 50%;
+   }
+}
+>>>>>>> d33733e919a903c25aa80ec334499b89c30bfd57
