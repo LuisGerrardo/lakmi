@@ -40,11 +40,11 @@
    width: 100%;
    height: 25em;
  }
- .card-list{
+ .list-decimal{
    list-style: decimal;
    padding: 0 2em;
  }
- .card-list > li{
+ .list-decimal > li{
     margin-bottom: 0.5em;
  }
 /* Elementos con pseudoclases */
