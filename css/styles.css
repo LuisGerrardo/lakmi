@@ -15,15 +15,15 @@
 }
 body {
    padding-top: 60px;
-   font-family: 'Bahnschrift Regular';
-   font-weight: normal;
+   font-family: 'Bahnschrift SemiCondensed';
+   font-weight: 300;
    background-color: var(--body-bg);
 }
 
 /* Estilos de navbar */
 .nav-bg{
+   font-weight: 400;
    background-color: var(--nav-bg);
-   font-weight: 500;
    font-size: 18px;
 }
 .nav-logo{
@@ -55,14 +55,16 @@ body {
 
 /* Estilos para títulos */
 .title, .title-section{
+   font-family: 'Bahnschrift Regular';
+   font-weight: 400;
    text-align: center;
    color: var(--title-color);
 }
 .title{
-   font-size: 15vw;
+   font-size: 13vw;
 }
 .title-section{
-   font-size: 45px;
+   font-size: 50px;
    margin-bottom: 1.2em;
 }
 
@@ -80,7 +82,7 @@ body {
 /* Responsive Web Design */
 @media (max-width:768px){
    .title-section{
-      font-size: 34px;
+      font-size: 40px;
       margin-bottom: 1em;
    }
    .navbar .input-group{
