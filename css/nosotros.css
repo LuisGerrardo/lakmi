@@ -12,3 +12,7 @@
 .container {
    max-width: 1240px;
 }
+
+.banner{
+   background-image: url(../images/nosotros/nosotros01.jpg);
+}
