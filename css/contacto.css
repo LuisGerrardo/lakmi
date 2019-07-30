@@ -6,14 +6,8 @@ body {
    width: 95vw;
    height: 25em;
    background-image: url('../images/contact-us-2993000_1920.jpg');
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
  }
- .banner-layer-contact{
-   height: 100%;
-   background-color: rgba(0,0,0,0.5);
-   transition: background-color 0.2s ease-in-out;
- }
+
  .container, .col-12, .row{
    padding: 0;
  }
